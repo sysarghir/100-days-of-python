@@ -12,3 +12,5 @@ Code for [100 Days of Code - The Complete Python Pro Bootcamp for 2021](https://
 - [Day 4](day001-014/day004): Randomisation and Python Lists
 - [Day 5](day001-014/day005): Python Loops
 - [Day 6](day001-014/day006): Python functions & Karel
+- [Day 7](day001-014/day007): Hangman
+- [Day 8](day001-014/day008): Function Parameters & Caesar Cipher
