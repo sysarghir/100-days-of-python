@@ -15,3 +15,4 @@ Code for [100 Days of Code - The Complete Python Pro Bootcamp for 2021](https://
 - [Day 7](day001-014/day007): Hangman
 - [Day 8](day001-014/day008): Function Parameters & Caesar Cipher
 - [Day 9](day001-014/day009): Dictionaries, Nesting and the Secret Auction
+- [Day 10](day001-014/day010): Functions with Outputs
