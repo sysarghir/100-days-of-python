@@ -25,6 +25,7 @@
 
 
 def is_leap(year):
+  """ Find if a leap year is leap or not"""
   if year % 4 == 0:
     if year % 100 == 0:
       if year % 400 == 0:
@@ -52,8 +53,7 @@ days = days_in_month(year, month)
 print(days)
 
 
-
-
+is_leap()
 
 
 
