@@ -16,4 +16,4 @@ Code for [100 Days of Code - The Complete Python Pro Bootcamp for 2021](https://
 - [Day 8](day001-014/day008): Function Parameters & Caesar Cipher
 - [Day 9](day001-014/day009): Dictionaries, Nesting and the Secret Auction
 - [Day 10](day001-014/day010): Functions with Outputs
-- [Day 11](day011-014/day014): The Blackjack Capstone Project
+- [Day 11](day001-014/day014): The Blackjack Capstone Project
