@@ -17,3 +17,4 @@ Code for [100 Days of Code - The Complete Python Pro Bootcamp for 2021](https://
 - [Day 9](day001-014/day009): Dictionaries, Nesting and the Secret Auction
 - [Day 10](day001-014/day010): Functions with Outputs
 - [Day 11](day001-014/day011): The Blackjack Capstone Project
+- [Day 12](day001-014/day012): Scope & Number Guessing Game
