@@ -1,5 +1,7 @@
 import sys
 import os
+from art import logo
+from art import invent
 
 MENU = {
     "espresso": {
@@ -33,7 +35,7 @@ resources = {
     "coffee": 100,
 }
 
-order = "yada"
+order = "Dada"
 quarters = 0.25
 dimes = 0.10
 nickles = 0.05
@@ -70,8 +72,8 @@ def brew_coffee(coffee):
         insert_dimes = int(input("How many dimes?: "))
         insert_nickles = int(input("How many nickles?: "))
         insert_pennies = int(input("How many pennies?: "))
-        coins_inserted = insert_quarters * quarters + insert_dimes * dimes + insert_nickles * nickles + insert_pennies * \
-                         pennies
+        coins_inserted = insert_quarters * quarters + insert_dimes * dimes + \
+                         insert_nickles * nickles + insert_pennies * pennies
         return_change = round(coins_inserted - MENU[coffee]["cost"], 2)
         print(f"Here is ${return_change} in change.")
         print(f"Here is your {coffee} ☕. Enjoy!")
@@ -81,10 +83,14 @@ def brew_coffee(coffee):
 
 
 while order != "off":
-
+    print(logo)
     order = input("What would you like? (espresso/latte/cappuccino): ")
     if order == "report":
+        os.system("cls")
+        print(invent)
         print_resources(resources)
+        input("Press ENTER to return to menu! ")
+        os.system("cls")
     elif order == "off":
         os.system("cls")
         sys.exit("It is now SAFE to turn off your computer")
