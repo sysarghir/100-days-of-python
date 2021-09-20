@@ -1,3 +1,5 @@
+# Coffee Machine
+
 import sys
 import os
 from art import logo
@@ -94,7 +96,7 @@ while order != "off":
     elif order == "off":
         os.system("cls")
         sys.exit("It is now SAFE to turn off your computer")
-    elif order.lower() != "espresso" or order.lower() != "latte" or order.lower() != "cappuccino":
+    elif order.lower() == "espresso" or order.lower() == "latte" or order.lower() == "cappuccino":
         print(f"Your {order} costs: ${MENU[order]['cost']}")
         brew_coffee(order)
     else:
